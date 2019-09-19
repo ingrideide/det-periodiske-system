@@ -1,0 +1,43 @@
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+}
+.span-16{
+  grid-column: span 16;
+}
+.span-10{
+  grid-column: span 10;
+}
+.usynlig{
+  opacity: 0;
+}
+.grunnstoff:not(.uten){
+  border-style: solid;
+  border-radius: 7px;
+  border-color: black;
+}
+.tall, .navn{
+  text-align: center;
+}
+.tall{
+  font-size: 24px;
+}
+.system1{
+  margin-top: 20px;
+}
+.system2{
+  margin-top: 20px;
+}
+.blå{
+  background-color: lightblue;
+}
+.gul{
+  background-color: lightyellow;
+}
+.grønn{
+  background-color: lightgreen;
+}
+.lysrosa{
+  background-color: lightpink; 
+}
